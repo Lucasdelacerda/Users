@@ -8,14 +8,16 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "tb_users")
+@Table(name = "usuarios")
 @Builder//para fazer updates
-public class Users {
+public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
+
     @Column(nullable = false)
-    private String name;
+    private String nome;
+
     @Column(nullable = false,  unique = true)
     private String email;
 }
