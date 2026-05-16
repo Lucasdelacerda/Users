@@ -1,4 +1,4 @@
-﻿# Identificador de Imagens - Users
+﻿# Users-register
 
 Este projeto é um serviço de backend em Spring Boot para gerenciar usuários, com a finalidade de criar e consultar dados básicos de usuários em uma aplicação Java.
 
