@@ -36,15 +36,6 @@ Este projeto é um serviço de backend em Spring Boot para gerenciar usuários, 
 
 > Ajuste os endpoints conforme a implementação atual do controller.
 
-## Futuro do projeto
-
-Este README será atualizado com as próximas melhorias planejadas:
-
-- Adicionar `bcrypt` para hash de senhas
-- Implementar tratamento de `exceptions` personalizado
-- Adicionar suporte a `password` seguro no modelo de usuário
-- Criar `DTOs` (Data Transfer Objects) para separar as camadas de domínio e API
-
 ## Contribuição
 
 Contribuições são bem-vindas. Sinta-se à vontade para abrir issues ou pull requests com melhorias.
