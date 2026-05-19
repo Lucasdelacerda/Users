@@ -1,6 +1,7 @@
 package com.scrimet.users.infrastructure.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import lombok.*;
 
 @Entity
@@ -19,5 +20,6 @@ public class Usuario {
     private String nome;
 
     @Column(nullable = false,  unique = true)
+    @Email(message ="Email inválido")
     private String email;
 }
